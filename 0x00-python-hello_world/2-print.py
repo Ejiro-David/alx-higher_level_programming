@@ -1,2 +1,2 @@
-#!/bin/bash
-echo $PYTEXT | python3
+#!/bin/python3
+print("\"Programming is like building a multilingual puzzle\n")
