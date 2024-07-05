@@ -10,6 +10,6 @@ if (process.argv.length < 4) {
     arr.push(process.argv[i]);
   }
   maxNum = Math.max(...arr);
-  arrCopy = arr.filter((item) => item !== maxNum);
+  arrCopy = arr.filter((item) => item != maxNum);
   console.log(Math.max(...arrCopy));
 }
