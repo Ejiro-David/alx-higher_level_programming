@@ -7,4 +7,4 @@ module.exports = class Square extends SquarePrime {
       console.log(c.repeat(this.width));
     }
   }
-}
+};

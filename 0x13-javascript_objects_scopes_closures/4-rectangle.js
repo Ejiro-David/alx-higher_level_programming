@@ -11,7 +11,7 @@ module.exports = class Rectangle {
     let i = this.width;
     let j = this.height;
     let result = '';
-	  while (i > 0) {
+    while (i > 0) {
       result += 'X';
       i--;
     }
@@ -22,8 +22,9 @@ module.exports = class Rectangle {
   }
 
   rotate () {
+    const tempW = this.width;
     this.width = this.height;
-    this.height = this.width;
+    this.height = tempW;
   }
 
   double () {
